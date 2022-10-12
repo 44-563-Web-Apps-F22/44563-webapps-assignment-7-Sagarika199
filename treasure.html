@@ -20,107 +20,155 @@
     </div><br>
     <div class="d-flex justify-content-center p-2 bg-secondary text-white">  
         <div class="p-2 bg-info flex-fill">Click on the chests to search for treasure</div>
-        <div class="p-2 bg-warning flex-fill" id="“chests”">Number of boxes checked is zero.</div>
+        <div class="p-2 bg-warning flex-fill" id="chests">Number of boxes checked is zero.</div>
         <div class="p-2 bg-success flex-fill" id="score">Score is unknown.</div>
-        <div class="p-2 bg-danger flex-fill" id="“help”">Help report</div>
+        <div class="p-2 bg-danger flex-fill" id="help">Help report</div>
     </div>
   </div>
   <div class="container">
     <div class="row">
         <div class="col-sm">
-            <img src="Treasure box.jpg" alt="Treasure Box" width="100" height="100">
+            <img src="Treasure box.jpg" alt="Treasure Box" onclick="check(0)" id="game" width="100" height="100">
         </div>
         <div class="col-sm">
-            <img src="Treasure box.jpg" alt="Treasure Box" width="100" height="100">
+            <img src="Treasure box.jpg" alt="Treasure Box" onclick="check(1)" id="game1" width="100" height="100">
         </div>
         <div class="col-sm">
-            <img src="Treasure box.jpg" alt="Treasure Box" width="100" height="100">
+            <img src="Treasure box.jpg" alt="Treasure Box" onclick="check(2)" id="game2" width="100" height="100">
         </div>
         <div class="col-sm">
-            <img src="Treasure box.jpg" alt="Treasure Box" width="100" height="100">
+            <img src="Treasure box.jpg" alt="Treasure Box" onclick="check(3)" id="game3" width="100" height="100">
         </div>
         <div class="col-sm">
-            <img src="Treasure box.jpg" alt="Treasure Box" width="100" height="100">
-        </div>
-    </div>
-</div>
-<div class="container">
-    <div class="row">
-        <div class="col-sm">
-            <img src="Treasure box.jpg" alt="Treasure Box" width="100" height="100">
-        </div>
-        <div class="col-sm">
-            <img src="Treasure box.jpg" alt="Treasure Box" width="100" height="100">
-        </div>
-        <div class="col-sm">
-            <img src="Treasure box.jpg" alt="Treasure Box" width="100" height="100">
-        </div>
-        <div class="col-sm">
-            <img src="Treasure box.jpg" alt="Treasure Box" width="100" height="100">
-        </div>
-        <div class="col-sm">
-            <img src="Treasure box.jpg" alt="Treasure Box" width="100" height="100">
+            <img src="Treasure box.jpg" alt="Treasure Box" onclick="check(4)" id="game4" width="100" height="100">
         </div>
     </div>
 </div>
 <div class="container">
     <div class="row">
         <div class="col-sm">
-            <img src="Treasure box.jpg" alt="Treasure Box" width="100" height="100">
+            <img src="Treasure box.jpg" alt="Treasure Box" onclick="check(5)" id="game5" width="100" height="100">
         </div>
         <div class="col-sm">
-            <img src="Treasure box.jpg" alt="Treasure Box" width="100" height="100">
+            <img src="Treasure box.jpg" alt="Treasure Box" onclick="check(6)" id="game6" width="100" height="100">
         </div>
         <div class="col-sm">
-            <img src="Treasure Map.jpg" alt="Treasure Box" width="100" height="100">
+            <img src="Treasure box.jpg" alt="Treasure Box" onclick="check(7)" id="game7"  width="100" height="100">
         </div>
         <div class="col-sm">
-            <img src="Treasure box.jpg" alt="Treasure Box" width="100" height="100">
+            <img src="Treasure box.jpg" alt="Treasure Box" onclick="check(8)" id="game8" width="100" height="100">
         </div>
         <div class="col-sm">
-            <img src="Treasure box.jpg" alt="Treasure Box" width="100" height="100">
-        </div>
-    </div>
-</div>
-<div class="container">
-    <div class="row">
-        <div class="col-sm">
-            <img src="Treasure box.jpg" alt="Treasure Box" width="100" height="100">
-        </div>
-        <div class="col-sm">
-            <img src="Treasure box.jpg" alt="Treasure Box" width="100" height="100">
-        </div>
-        <div class="col-sm">
-            <img src="Treasure box.jpg" alt="Treasure Box" width="100" height="100">
-        </div>
-        <div class="col-sm">
-            <img src="Treasure box.jpg" alt="Treasure Box" width="100" height="100">
-        </div>
-        <div class="col-sm">
-            <img src="Treasure box.jpg" alt="Treasure Box" width="100" height="100">
+            <img src="Treasure box.jpg" alt="Treasure Box" onclick="check(9)" id="game9" width="100" height="100">
         </div>
     </div>
 </div>
 <div class="container">
     <div class="row">
         <div class="col-sm">
-            <img src="Treasure box.jpg" alt="Treasure Box" width="100" height="100">
+            <img src="Treasure box.jpg" alt="Treasure Box" onclick="check(10)" id="game10" width="100" height="100">
         </div>
         <div class="col-sm">
-            <img src="Treasure box.jpg" alt="Treasure Box" width="100" height="100">
+            <img src="Treasure box.jpg" alt="Treasure Box" onclick="check(11)" id="game11" width="100" height="100">
         </div>
         <div class="col-sm">
-            <img src="Treasure box.jpg" alt="Treasure Box" width="100" height="100">
+            <img src="Treasure Map.jpg" alt="Treasure Box" onclick="help()" id="help" width="100" height="100">
         </div>
         <div class="col-sm">
-            <img src="Treasure box.jpg" alt="Treasure Box" width="100" height="100">
+            <img src="Treasure box.jpg" alt="Treasure Box" onclick="check(13)" id="game13" width="100" height="100">
         </div>
         <div class="col-sm">
-            <img src="Treasure box.jpg" alt="Treasure Box" width="100" height="100">
+            <img src="Treasure box.jpg" alt="Treasure Box" onclick="check(14)" id="game14" width="100" height="100">
+        </div>
+    </div>
+</div>
+<div class="container">
+    <div class="row">
+        <div class="col-sm">
+            <img src="Treasure box.jpg" alt="Treasure Box" onclick="check(15)" id="game15" width="100" height="100">
+        </div>
+        <div class="col-sm">
+            <img src="Treasure box.jpg" alt="Treasure Box" onclick="check(16)" id="game16" width="100" height="100">
+        </div>
+        <div class="col-sm">
+            <img src="Treasure box.jpg" alt="Treasure Box" onclick="check(17)" id="game17" width="100" height="100">
+        </div>
+        <div class="col-sm">
+            <img src="Treasure box.jpg" alt="Treasure Box" onclick="check(18)" id="game18" width="100" height="100">
+        </div>
+        <div class="col-sm">
+            <img src="Treasure box.jpg" alt="Treasure Box"  onclick="check(19)" id="game19"width="100" height="100">
+        </div>
+    </div>
+</div>
+<div class="container">
+    <div class="row">
+        <div class="col-sm">
+            <img src="Treasure box.jpg" alt="Treasure Box" onclick="check(20)" id="game20" width="100" height="100">
+        </div>
+        <div class="col-sm">
+            <img src="Treasure box.jpg" alt="Treasure Box" onclick="check(21)" id="game21" width="100" height="100">
+        </div>
+        <div class="col-sm">
+            <img src="Treasure box.jpg" alt="Treasure Box" onclick="check(22)" id="game22" width="100" height="100">
+        </div>
+        <div class="col-sm">
+            <img src="Treasure box.jpg" alt="Treasure Box" onclick="check(23)" id="game23" width="100" height="100">
+        </div>
+        <div class="col-sm">
+            <img src="Treasure box.jpg" alt="Treasure Box" onclick="check(24)" id="game24" width="100" height="100">
         </div>
     </div>
 </div>
 </div>
 <br>
+<script>
+
+    var ids = ["game", "game1", "game2", "game3", "game4", "game5", "game6", "game7", "game8", "game9", 
+    "game10", "game11", "game12", "game13", "game14", "game15", "game16", "game17", "game18", "game19", 
+    "game20", "game21", "game22", "game23", "game24"];
+    var chestCount = 0;
+    var score = 0;
+    var lastCheck = 12;
+    var treasureLocation = 18;
+    
+function check(position){
+if(position == treasureLocation){
+    document.getElementById(ids[position]).src = "Treasure box Open.jpg"
+}else{
+    document.getElementById(ids[position]).src = "Empty box.jpg"
+}
+chestCount++
+score++
+document.getElementById("chests").innerHTML = "Number of chests checked is " + chestCount
+document.getElementById("score").innerHTML = "Score is " + score
+lastCheck = position;
+}
+function help(){
+var lastCheck_row = parseInt(lastCheck / 5)
+var lastCheck_column = parseInt(lastCheck % 5)
+var treasureLocation_row = parseInt(treasureLocation / 5)
+var treasureLocation_column = parseInt(treasureLocation % 5)
+score += 2
+document.getElementById("score").innerHTML = "Score is " + score
+if(lastCheck_row == treasureLocation_row) {
+    if(lastCheck_column < treasureLocation_column) {
+        document.getElementById("help").innerHTML = "Right"
+    } else if(lastCheck_column > treasureLocation_column) {
+        document.getElementById("help").innerHTML = "Left"
+    } else {
+        document.getElementById("help").innerHTML = "Sorry, no help available"
+    }
+} else if(lastCheck_column == treasureLocation_column) {
+    if(lastCheck_row < treasureLocation_row) {
+        document.getElementById("help").innerHTML = "Down"
+    } else if(lastCheck_row > treasureLocation_row) {
+        document.getElementById("help").innerHTML = "Up"
+    } else {
+        document.getElementById("help").innerHTML = "Sorry, no help available"
+    }
+} else { document.getElementById("help").innerHTML = "Sorry, no help available" }}
+</script>
+
 </body>
 </html>
