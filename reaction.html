@@ -28,7 +28,7 @@
     </div>
 </div>
 <script>
-    var myTime = Date.now()
+    var myTime = undefined
     function recordReact() {
         myTime = Date.now()
         console.log(myTime)
@@ -37,7 +37,7 @@
         //BONUS
         let countdown = Math.floor(Math.random() * 9) + 2
             console.log()
-        for (let i = 0; i < 4; i++) {
+        for (let i = 0; i < countdown; i++) {
             setTimeout(() => {
                 document.getElementById("countdown").innerHTML = i
             }, ((3 - i) * 1000));
